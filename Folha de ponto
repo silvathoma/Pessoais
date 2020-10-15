@@ -1,0 +1,9 @@
+from random import randint
+k=0
+while k<8:
+    x =randint(-5,5)
+    if x<1:
+        print "6:{}-13:{}".format((59+x),(14+x))
+    else:
+        print "7:0{}-13:{}".format(x,(15+x))
+    k = k+1
